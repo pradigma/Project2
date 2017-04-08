@@ -20,7 +20,7 @@ import java.util.Calendar;
 import java.util.Random;
 
 /**
- * Created by Aqshal Fajar Putra on 2016/11/11.
+ * Created by
  */
 
 public class FirstFragment extends Fragment {

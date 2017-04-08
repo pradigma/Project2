@@ -1,7 +1,7 @@
 package id.sch.smktelkom_mlg.project2.xirpl11126.sleepingalert;
 
 /**
- * Created by Akito on 17/11/2016.
+ * Created by Pradigma on 17/11/2016.
  */
 
 import android.content.BroadcastReceiver;
