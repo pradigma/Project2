@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context="id.sch.smktelkom_mlg.project.xirpl102112029.wakemeup.MainActivity">
+    tools:context="id.sch.smktelkom_mlg.project2.xirpl11126.sleepingalert.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
