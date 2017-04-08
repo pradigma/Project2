@@ -5,7 +5,7 @@
     <application
         android:allowBackup="true"
         android:icon="@drawable/bell"
-        android:label="@string/app_name"
+        android:label="Q'Alarm"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".WelcomeActivity">
@@ -20,6 +20,23 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_welcome"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <receiver
+            android:name=".AlarmReciever"
+            android:process=":remote">
+            <intent-filter>
+                <action android:name="android.intent.action.SCREEN_OFF" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".RingtonePlayingService"
+            android:enabled="true" />
+
+        <activity android:name=".QuizActivity" />
+        <activity android:name=".QuizActivity2" />
+        <activity android:name=".QuizActivity3" />
     </application>
 
 </manifest>

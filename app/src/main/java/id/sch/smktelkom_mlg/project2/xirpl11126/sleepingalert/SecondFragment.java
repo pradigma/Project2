@@ -8,9 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 
-/**
- * Created by Aqshal Fajar Putra on 2016/11/11.
- */
 
 public class SecondFragment extends Fragment {
 
@@ -27,7 +24,7 @@ public class SecondFragment extends Fragment {
             public void onClick(View v) {
                 Intent myIntent = new Intent(Intent.ACTION_SEND);
                 myIntent.setType("text/plain");
-                String shareBody = "Thankyou! for sharing this link. Support us on github : https://github.com/aqshalfajarputra/WakeMeUP";
+                String shareBody = "Thankyou! for sharing this link. Support us on github : https://github.com/pradigma/Project2";
                 myIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
                 startActivity(Intent.createChooser(myIntent, "Share using"));
             }
