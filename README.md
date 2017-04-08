@@ -25,11 +25,7 @@ Mainmenu <br>
 Pengaturan Alarm <br>
 ![5.png](https://s3.postimg.org/p3th4a2rn/image.png)]<br>
 
-
-### E. Link File APK dari Aplikasi
-<p> http://www.mediafire.com/file/473b11ofa9ftbtd/LifeWithToga.apk </p> 
-
-### F. Identitas Masing - Masing Anggota
+### E. Identitas Masing - Masing Anggota
 #### Anggota 1
 Nama          : Fahmi Akbar <br>
 Kelas         : XI RPL 1 <br>
